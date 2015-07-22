@@ -2,6 +2,8 @@
 FROM postgres:9.4
 
 ENV PGS_VERSION 2.1
+ENV PG_MAJOR 9.4
+ENV PG_VERSION 9.4.4-1.pgdg80+1
 
 RUN apt-get update \
 	&& apt-get install -y \
