@@ -7,7 +7,7 @@ ENV PG_VERSION 9.4.4-1.pgdg80+1
 
 RUN apt-get update \
 	&& apt-get install -y \
-		postgresql-$PG_MAJOR-postgis-$PGS_VERSION
+		postgresql-$PG_MAJOR-postgis-$PGS_VERSION \
 	&& rm -rf /var/lib/apt/lists/*
 
 ENV PATH /usr/lib/postgresql/$PG_MAJOR/bin:$PATH
