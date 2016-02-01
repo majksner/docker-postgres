@@ -46,6 +46,8 @@ VOLUME /var/lib/postgresql/data
 
 COPY docker-entrypoint.sh /
 
+RUN chmod +x docker-entrypoint.sh
+
 ENTRYPOINT ["/docker-entrypoint.sh"]
 
 EXPOSE 5432
