@@ -1,7 +1,7 @@
 Docker PostgreSQL
 ===============
 
-PostgreSQL version: 9.4.5
+PostgreSQL version: 9.5.3
 
 Running container:
 
